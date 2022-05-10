@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: aqua;
+}
+li:active {
+    font-family: cursive;
+}
+ol, ul {
+    list-style: none;
+}

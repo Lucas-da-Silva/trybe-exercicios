@@ -1,0 +1,32 @@
+div:hover {
+    border: 2px solid aqua;
+}
+
+.cor-primaria h3 {
+    color: red;
+    background-color: blue;
+    font-style: italic;
+}
+
+.cor-secundaria h3 {
+    color:darkkhaki;
+    font-family: cursive;
+}
+
+.cor-complementar h3 {
+    color:orange;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.cor-escura h3 {
+    color: blueviolet;
+    font-size: medium;
+}
+
+.cor-clara h3 {
+    color: aqua;
+    background-color: darksalmon;
+    font-style: italic;
+}
