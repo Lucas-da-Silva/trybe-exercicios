@@ -4,5 +4,5 @@
 - Criar códigos que usam estruturas condicionais, como o if/else.
 
 ### Exercícios feitos:
-- [exercicio-01]();
-- [exercicio-02]();
+- [exercicio-01](https://github.com/lucas-da-silva/trybe-exercicios/blob/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao/dia-01-javascript-introducao-e-primeiros-passos/exercicio-01.js);
+- [exercicio-02](https://github.com/lucas-da-silva/trybe-exercicios/blob/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao/dia-01-javascript-introducao-e-primeiros-passos/exercicio-02.js);
