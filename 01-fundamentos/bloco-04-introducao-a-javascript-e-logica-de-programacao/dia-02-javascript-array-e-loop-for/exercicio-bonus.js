@@ -21,5 +21,14 @@ console.log(numbers.reverse()); //maneira mais fácil que eu encontrei, usando r
 
 // Agora crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte.
 
-// Tentei muito e não conseguir, quem sabe no futuro.
+let arrayProduto = [];
 
+for (let index = 0; index < numbers.length; index += 1) {
+  if (index + 1 < numbers.length) {
+    arrayProduto.push(numbers[index] * numbers[index + 1]);
+  } else {
+    arrayProduto.push(numbers[index] * 2);
+  }
+}
+
+console.log(arrayProduto)
