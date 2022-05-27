@@ -38,11 +38,11 @@ Neste módulo, estou inicializando no conteúdo de desenvolvimento web aprendend
 ##### Bloco 5: JavaScrip: DOM, Eventos e Web Storage
 
 - [X] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _Projeto - Arte com Pixels_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-3: _JavaScript - Eventos_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _Fundamentos - JavaScript - Projetos_
+- [X] 5-5: _Projeto - Arte com Pixels_
 - [ ] 5-6: _Projeto - Lista de Tarefas_
 - [ ] 5-7: _Projeto Bônus - Meme Generator_
 - [ ] 5-7: _Projeto Bônus - Adivinhe a Cor_
