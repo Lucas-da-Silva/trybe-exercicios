@@ -23,7 +23,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS]()_
+- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -31,7 +31,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -39,18 +39,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [X] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [X] 5-5: _[Projeto - Meme Generator](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/meme-generator)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/arte-com-pixels)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/lista-de-tarefas)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/adivinhe-a-cor)_
+- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/carta-misteriosa)_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
+- [X] 6-1: _HTML & CSS - Forms_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-3: _CSS Flexbox - Part 1_
+- [X] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
 
