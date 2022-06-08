@@ -1,0 +1,107 @@
+/*
+* @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+* apply a natural box layout model to all elements, but allowing components to change
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 18px;
+}
+
+body {
+    margin: 2%;
+}
+
+article {
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+main {
+
+}
+
+section {
+    
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .8em;
+}
+
+/* A partir de 1000px a resolucação fica inadequada */
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: antiquewhite;
+        margin: 1%;
+    }
+    
+    * {
+        font-size: 23px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+        margin-right: 30px;
+    }
+
+    figure figcaption {
+        text-align: center; 
+    }
+}
+
+/* Apartir dessa resolução é necessário reajustes */
+@media screen and (min-width: 1700px) {
+    body {
+        background-color: aquamarine;
+        margin: 1% 5% 5% 5%;
+        max-width: 90%;
+    }
+    
+    * {
+        font-size: 27px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    section {
+        justify-content: center;
+    }
+}
