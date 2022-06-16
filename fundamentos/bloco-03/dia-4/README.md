@@ -11,7 +11,7 @@
 ### [Exercício 1](./exercicio1)
 
 -   Reproduza esse esquema de itens:
-    ![Inline-block](./exercises_1/reference.webp)
+    ![Inline-block](https://assets.app.betrybe.com/fundamentals/html-css/images/podium-final-fdcdc425aade8216b9e3c4b0eab234fc.png)
 
 ---
 
