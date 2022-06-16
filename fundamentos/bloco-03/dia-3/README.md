@@ -11,7 +11,7 @@
 ### [Exercício 1](./exercicio1/)
 
 -   Reproduza esse esquema de itens:
-    ![CSS-Box-Model-Example](./exercises_1/css-box-model-example.webp)
+    ![CSS-Box-Model-Example](https://assets.app.betrybe.com/fundamentals/html-css/images/css-box-model-example-a9ff30a667b5b5ac7e412931ed9b2afc.png)
 
 ---
 
