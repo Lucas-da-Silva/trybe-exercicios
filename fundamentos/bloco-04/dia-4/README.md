@@ -19,7 +19,7 @@ let age = 34;
 let medals = { golden: 2, silver: 3 };
 ```
 
-### [Exercícios 2](./exercicio2.js)
+### [Exercício 2](./exercicio2.js)
 
 2. Acesse as chaves name, lastName e age e concatene as suas informações para imprimir no console uma mensagem no seguinte formato: "A jogadora Marta Silva tem 34 anos de idade".
 
