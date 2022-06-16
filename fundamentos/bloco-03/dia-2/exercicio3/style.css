@@ -1,0 +1,38 @@
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+ul {
+  background-color: aqua;
+}
+
+p {
+  font-weight: 600;
+  font-size: 48px;
+  font-style: normal;
+}
+
+.pul {
+  background-color: chartreuse;
+}
+
+b {
+  font-size: 16px;
+}
+
+.amarelo {
+  color: yellow;
+}
+
+.vermelho {
+  color: red;
+}
+
+.marrom {
+  color: rgb(114, 100, 68);
+}
