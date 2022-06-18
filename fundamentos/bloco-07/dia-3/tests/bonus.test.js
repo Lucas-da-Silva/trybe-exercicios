@@ -1,4 +1,4 @@
-const { searchEmployee } = require('./exercicio-bonus');
+const { searchEmployee } = require('../src/bonus');
 
 describe('test for function searchEmployee', () => {
   it('Is a function', () => {

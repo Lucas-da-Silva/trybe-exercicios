@@ -36,7 +36,7 @@ const order = {
 
 const customerInfo = (order) => {
   // Adicione abaixo as informações necessárias.
-  // 1- Complete a função customerInfo() para que seu retorno seja similar a "Olá Ana Silveira, entrega para: Rafael Andrade, Telefone: 11-98763-1416, R. Rua das Flores, Nº: 389, AP: 701".
+  // #1
   const delivery = Object.values(order.order.delivery)[0];
   const address = Object.values(order.address)[0];
   const number = Object.values(order.address)[1];
@@ -48,7 +48,7 @@ console.log(customerInfo(order));
 
 const orderModifier = (order) => {
   // Adicione abaixo as informações necessárias.
-  // 3- Complete a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00."
+  // #2
   order.name = "Lucas da Silva";
   order.payment.total = 50;
   const pizza1 = Object.keys(order.order.pizza)[0];

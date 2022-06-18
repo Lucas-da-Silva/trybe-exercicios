@@ -19,10 +19,11 @@
         try {
           const value1 = document.getElementById("value1").value;
           const value2 = document.getElementById("value2").value;
+          // #1
           if (value1 === "" || value2 === "") {
             throw new Error("FALTA VALOR.");
           }
-        //   isNaN() retorna se o valor é NaN ou não
+          // #2
           if (isNaN(value1) || isNaN(value2)) {
             throw new Error("VALOR NÃO NÚMERICO, digite novamente.");
           }
@@ -30,7 +31,7 @@
           document.getElementById("result").innerHTML = `Resultado: ${result}`;
         } catch (error) {
           document.getElementById("result").innerHTML = error.message;
-        } finally {
+        } finally { // #3
           document.getElementById("value1").value = "";
           document.getElementById("value2").value = "";
         }
@@ -42,7 +43,3 @@
     </script>
   </body>
 </html>
-
-<!-- 1 🚀 - Crie um erro personalizado que será chamado se a pessoa usuária digitar apenas um número. -->
-<!-- 2 🚀 - Agora adicione uma outra exceção, caso a pessoa usuária digite um valor que não seja numérico. -->
-<!-- 3 🚀 - Você se lembrou de limpar os inputs após o clique do botão? Teve que repetir código para isso? Que tal refatorar sua função utilizando o finally? -->
