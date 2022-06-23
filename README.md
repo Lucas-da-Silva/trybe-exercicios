@@ -54,17 +54,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-5: _CSS Responsivo - Mobile First_
 - [X] 6-6: _[Projeto - Trybewarts](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/trybewarts)_
 
-##### Bloco 7: Introdução - JavaScript ES6 & Testes Unitários
+##### Bloco 7: Introdução - JavaScript ES6 & Testes Unitários ✔️
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/js-unit-tests)_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
