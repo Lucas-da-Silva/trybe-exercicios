@@ -83,7 +83,7 @@ const books = [
 
 </details>
 
-### [Exercise 1](./exercise1/script.js)
+### [Exercise 1](./exercise1.js)
 
 1. 🚀 Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
     - Dica: use a função find.
@@ -94,7 +94,7 @@ function authorBornIn1947() {
 }
 ```
 
-### [Exercise 2](./exercise2/script.js)
+### [Exercise 2](./exercise2.js)
 
 2. Retorne o nome do livro de menor nome.
     - Dica: use a função forEach.
@@ -109,7 +109,7 @@ function smallerName() {
 }
 ```
 
-### [Exercise 3](./exercise3/script.js)
+### [Exercise 3](./exercise3.js)
 
 3. Encontre o primeiro livro cujo nome possui 26 caracteres.
 
@@ -130,7 +130,7 @@ function getNamedBook() {
 }
 ```
 
-### [Exercise 4](./exercise4/script.js)
+### [Exercise 4](./exercise4.js)
 
 4. Ordene os livros por data de lançamento em ordem decrescente.
 
@@ -191,7 +191,7 @@ function booksOrderedByReleaseYearDesc() {
 
 </details>
 
-### [Exercise 5](./exercise5/script.js)
+### [Exercise 5](./exercise5.js)
 
 5. 🚀 Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
 
@@ -203,7 +203,7 @@ function everyoneWasBornOnSecXX() {
 }
 ```
 
-### [Exercise 6](./exercise6/script.js)
+### [Exercise 6](./exercise6.js)
 
 6. 🚀 Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 
@@ -215,7 +215,7 @@ function someBookWasReleaseOnThe80s() {
 }
 ```
 
-### [Exercise 7](./exercise7/script.js)
+### [Exercise 7](./exercise7.js)
 
 7. Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 

@@ -1,4 +1,4 @@
-const books = require('../code');
+const books = require('./books');
 // Retorne o nome do livro de menor nome.
 
 function smallerName() {

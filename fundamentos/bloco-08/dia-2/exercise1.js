@@ -1,4 +1,4 @@
-const books = require('../code');
+const books = require('./books');
 
 function authorBornIn1947() {
     // escreva aqui o seu código

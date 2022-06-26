@@ -1,4 +1,4 @@
-const books = require('../books');
+const books = require('./books');
 
 function fantasyOrScienceFictionAuthors(books) {
     // escreva seu código aqui

@@ -1,4 +1,4 @@
-const books = require('../books');
+const books = require('./books');
 
 function oldBooks(books) {
     // escreva seu código aqui

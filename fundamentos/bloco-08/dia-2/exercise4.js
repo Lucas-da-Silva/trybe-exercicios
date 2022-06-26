@@ -1,4 +1,4 @@
-const books = require('../code');
+const books = require('./books');
 
 const expectedResult = [
     {
