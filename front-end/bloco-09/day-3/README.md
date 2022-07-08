@@ -8,7 +8,7 @@
 
 ## [9.3-content-async-test](https://github.com/lucas-da-silva/9.3-content-async-test)
 
-- Foram desenvolvidos diversos [testes](https://github.com/lucas-da-silva/9.3-content-async-test/tests/fetchCharacter.test.js) guiados.
+- Foram desenvolvidos diversos [testes](https://github.com/lucas-da-silva/9.3-content-async-test/tree/main/tests) guiados.
 
 ---
 
