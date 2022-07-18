@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+.poke {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.containerPokemon {
+  display: flex;
+  margin: 20px;
+  border: 2px solid gray;
+  border-radius: 15%;
+  padding: 5px;
+}
+
+.imagePokemon {
+  align-self: center;
+}
