@@ -1,13 +1,13 @@
 import { ERROR, GET_SUBREDDIT, REQUEST } from '../actions';
 
 const INITIAL_STATE = {
-  posts: [],
+  posts: { data: { children: { } } },
+  nameSubreddit: '',
   isFetching: false,
   error: null,
 };
 
 const subredditsReducer = (state = INITIAL_STATE, action) => {
-  console.log(action)
   switch (action.type) {
     case REQUEST:
       return {
@@ -18,6 +18,7 @@ const subredditsReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         posts: action.posts,
+        nameSubreddit: action.nameSubreddit,
         isFetching: false,
       }
     case ERROR:
