@@ -23,7 +23,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/lessons-learned)_
+- [X] 3-5: _[Projeto - Lessons learned](https://github.com/lucas-da-silva/project-lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript & Lógica de Programação ✔️
 
@@ -31,7 +31,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/lucas-da-silva/project-playground-functions)_
 
 ##### Bloco 5: JavaScript - DOM, Eventos & Web Storage ✔️
 
@@ -39,11 +39,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/arte-com-pixels)_
-- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/lista-de-tarefas)_
-- [X] 5-5: _[Projeto - Meme Generator](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/meme-generator)_
-- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/adivinhe-a-cor)_
-- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/carta-misteriosa)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/lucas-da-silva/project-pixels-art)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/lucas-da-silva/project-todo-list)_
+- [X] 5-5: _[Projeto - Meme Generator](https://github.com/lucas-da-silva/project-meme-generator)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/lucas-da-silva/project-color-guess)_
+- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/lucas-da-silva/project-mistery-letter)_
 
 ##### Bloco 6: HTML & CSS - Forms, Flexbox & Responsivo ✔️
 
@@ -52,14 +52,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto - Trybewarts](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/trybewarts)_
+- [X] 6-6: _[Projeto - Trybewarts](https://github.com/lucas-da-silva/project-trybewarts)_
 
 ##### Bloco 7: Introdução - JavaScript ES6 & Testes Unitários ✔️
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
-- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos-desenvolvimento-web/js-unit-tests)_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/lucas-da-silva/project-js-unit-tests)_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6 ✔️
 
@@ -68,55 +68,55 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [X] 8-6: _[Projeto - Zoo functions](https://github.com/lucas-da-silva/trybe-projects/tree/main/fundamentos/zoo-functions)_
+- [X] 8-6: _[Projeto - Zoo functions](https://github.com/lucas-da-silva/project-zoo-functions)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 9: JavaScript & Testes Assíncronos
+##### Bloco 9: JavaScript & Testes Assíncronos ✔️
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/lucas-da-silva/project-shopping-cart)_
 
-##### Bloco 10: Introdução - Jest
+##### Bloco 10: Introdução - Jest ✔️
 
-- [ ] 10-1: _'Hello, world! no React!'_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [X] 10-1: _'Hello, world! no React!'_
+- [X] 10-2: _Componentes React_
+- [X] 10-3: _[Projeto - Sistema Solar](https://github.com/lucas-da-silva/project-solar-system)_
 
-##### Bloco 11: Componentes com Estado, Eventos & Formulários com React
+##### Bloco 11: Componentes com Estado, Eventos & Formulários com React ✔️
 
-- [ ] 11-1: _Componentes com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [X] 11-1: _Componentes com estado e eventos_
+- [X] 11-2: _Formulários no React_
+- [X] 11-3: _[Projeto - Tryunfo](https://github.com/lucas-da-silva/project-tryunfo)_
 
-##### Bloco 12: Ciclo de Vida de Componentes e React Rounter
+##### Bloco 12: Ciclo de Vida de Componentes e React Rounter ✔️
 
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-1: _Ciclo de vida de componentes_
+- [X] 12-2: _React Router_
+- [X] 12-3: _[Projeto - TrybeTunes](https://github.com/lucas-da-silva/project-trybetunes)_
 
-##### Bloco 13: Metodologias Ágeis
+##### Bloco 13: Metodologias Ágeis ✔️
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-1: _Metodologias Ágeis_
+- [X] 13-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 14: Testes automatizados com React Testing Library
+##### Bloco 14: Testes automatizados com React Testing Library ✔️
 
-- [ ] 14-1: _RTL - Primeiros passos _
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTl - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-1: _RTL - Primeiros passos _
+- [X] 14-2: _RTL - Mocks e Inputs_
+- [X] 14-3: _RTl - Testando React Router_
+- [X] 14-4: _[Projeto - Testes em React](https://github.com/lucas-da-silva/project-react-testing-library)_
 
-##### Bloco 15: Gerenciamento de estado com Redux
+##### Bloco 15: Gerenciamento de estado com Redux ✔️
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _Usando o Redux no React - Prática_
-- [ ] 15-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _ [Projeto - Trybe Wallet]()_ 
+- [X] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 15-2: _Usando o Redux no React_
+- [X] 15-3: _Usando o Redux no React - Prática_
+- [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 15-5: _Testes em React-Redux_
+- [X] 15-6: _ [Projeto - TrybeWallet](https://github.com/lucas-da-silva/project-trybewallet)_ 
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
