@@ -100,7 +100,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 13: Metodologias Ágeis ✔️
 
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-2: _[Projeto - Frontend Online Store](https://github.com/lucas-da-silva/project-front-end-online-store)_
 
 ##### Bloco 14: Testes automatizados com React Testing Library ✔️
 
@@ -120,7 +120,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia](https://github.com/lucas-da-silva/project-trivia-react-redux)_
 
 ##### Bloco 17: Context API e React Hooks
 
