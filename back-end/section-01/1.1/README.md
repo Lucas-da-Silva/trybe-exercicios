@@ -10,11 +10,6 @@
 
 2. 🚀 Once you find the official image, access it (by clicking on your card) and check the details page. Check if there is any command to download the image locally without having to create a container for it.
 
-- Command: 
-```
-docker pull debian
-```
-
 ---
 
 3. 🚀 Download the image using the tag: stable-slim, which is a stripped down version of the distribution.
@@ -89,7 +84,7 @@ docker container ls
 
 - Command:
 ```
-docker start -i <container_id>
+docker container -i <container_id>
 ```
 
 ---
@@ -123,7 +118,7 @@ exit
 
 - Command:
 ```
-docker container rm <container_id>
+docker container attach <container_id>
 ```
 
 ---
