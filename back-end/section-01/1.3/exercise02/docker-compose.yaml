@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ghost: 
+    image: ghost:1-alpine
+    restart: on-failure
+    ports:
+      - 2368:2368
