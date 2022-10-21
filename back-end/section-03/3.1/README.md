@@ -250,7 +250,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        MAX(salary) 
+    FROM 
+        hr.employees;
     ```
 
     </details>
@@ -263,7 +266,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        MAX(salary) - MIN(salary) 
+    FROM  
+        hr.employees;
     ```
 
     </details>
@@ -276,7 +282,12 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        job_id, AVG(salary) AS average
+    FROM
+        hr.employees
+    GROUP BY job_id
+    ORDER BY average DESC;
     ```
 
     </details>
@@ -289,7 +300,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        SUM(salary)
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -302,7 +316,13 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        MAX(salary) AS 'Higher salary',
+        MIN(salary) AS 'Lower salary',
+        SUM(salary) AS 'Total',
+        AVG(salary) AS 'Average'
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -315,7 +335,12 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        COUNT(job_id)
+    FROM
+        hr.employees
+    WHERE
+        job_id = 'IT_PROG';
     ```
 
     </details>
@@ -328,7 +353,11 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        job_id, SUM(salary)
+    FROM
+        hr.employees
+    GROUP BY job_id;
     ```
 
     </details>
@@ -341,7 +370,12 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        job_id, SUM(salary)
+    FROM
+        hr.employees
+    GROUP BY job_id
+    HAVING job_id = 'IT_PROG';
     ```
 
     </details>
@@ -354,7 +388,13 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        job_id, AVG(salary) AS average
+    FROM
+        hr.employees
+    GROUP BY job_id
+    HAVING job_id <> 'IT_PROG'
+    ORDER BY average DESC;
     ```
 
     </details>
@@ -367,7 +407,14 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        department_id,
+        COUNT(department_id) AS number_employees,
+        AVG(salary) AS average
+    FROM
+        hr.employees
+    GROUP BY department_id
+    HAVING number_employees > 10;
     ```
 
     </details>
@@ -380,7 +427,9 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    UPDATE hr.employees
+    SET phone_number = REPLACE(phone_number, '515', '777')
+    WHERE phone_number LIKE '515%';
     ```
 
     </details>
@@ -393,7 +442,11 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+	    *
+    FROM 
+	    hr.employees
+    WHERE CHAR_LENGTH(first_name) >= 8;
     ```
 
     </details>
@@ -406,7 +459,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+	    employee_id, first_name, YEAR(hire_date) AS hire_year
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -419,7 +475,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+	    employee_id, first_name, DAY(hire_date) AS hire_day
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -432,7 +491,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        employee_id, first_name, MONTH(hire_date) AS hire_month
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -445,7 +507,10 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+	    UCASE(CONCAT(first_name,' ', last_name)) AS `name`
+    FROM
+        hr.employees;
     ```
 
     </details>
@@ -458,7 +523,12 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        last_name, hire_date
+    FROM
+        hr.employees
+    WHERE
+        hire_date LIKE '1987-07%';
     ```
 
     </details>
@@ -471,7 +541,12 @@ FROM employees;
     <summary>Command used</summary>
 
     ```
-
+    SELECT 
+        first_name,
+        last_name,
+        DATEDIFF(CURRENT_DATE(), hire_date) AS days_worked
+    FROM
+        hr.employees;
     ```
 
     </details>
