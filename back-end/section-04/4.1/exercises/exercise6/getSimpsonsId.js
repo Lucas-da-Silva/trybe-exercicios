@@ -1,12 +1,9 @@
-const fs = require('fs').promises;
 const readline = require('readline-sync');
+const { readSimpsons } = require('./readFiles');
 
 async function readSimpsonsId() {
   try {
-    const jsonSimpsons = await fs.readFile('./simpsons.json', 'utf-8'
-    );
-    const simpsons = JSON.parse(jsonSimpsons);
-
+    const simpsons = await readSimpsons();
     const id = readline.questionInt('What is the character id? ');
     const simpson = simpsons.find((person) => person.id == id);
 

@@ -1,17 +1,14 @@
 const fs = require('fs').promises;
+const { readSimpsonFamily } = require('./readFiles');
 
 async function addPersonSimpsonFamily() {
   try {
-    const jsonSimpsonFamily = await fs.readFile(
-      './simpsonFamily.json',
-      'utf-8'
-    );
-    const oldSimpsonFamily = JSON.parse(jsonSimpsonFamily);
-
+    const simpsonFamily = await readSimpsonFamily();
     const newSimpsonFamily = [
-      ...oldSimpsonFamily,
+      ...simpsonFamily,
       { id: '8', name: 'Nelson Muntz' },
     ];
+
     fs.writeFile('./simpsonFamily.json', JSON.stringify(newSimpsonFamily));
   } catch (error) {
     console.log(error);

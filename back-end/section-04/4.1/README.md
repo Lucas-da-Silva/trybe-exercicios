@@ -105,3 +105,25 @@ Use the data below to complete the requirements. Save the data inside a file nam
 [F](./exercises/exercise6/changePersonSimpsonFamily.js) - Create a function that replaces the character `Nelson Muntz` with the character `Maggie Simpson` in the `simpsonFamily.json` file.
 
 > Click on the <strong>initial letters</strong> of the questions to be redirected to the file
+
+---
+
+## Exercises - bonus
+
+1. Create code that displays the value of the first `n` elements of the Fibonacci sequence.
+
+    > The Fibonacci sequence starts with 0 and 1 and the following numbers are always the sum of the two previous numbers.
+
+    - Store the code in the `fibonacci.js` file.
+    - Use `readline-sync` to perform data input.
+    - The code must be triggered through the `npm run fibonacci` command.
+    - Do not print the value `0`, as it is not included in the sequence.
+    - When `n = 10`, exactly 10 elements must be displayed.
+    - Add validations to ensure that the value entered is an integer greater than 0.
+
+2. Create a function that takes three parameters and returns a `Promise`.
+
+    - If any of the parameters received is not a number, reject the Promise with the reason `"Enter numbers only"`.
+    - If all parameters are numeric, add the first two and multiply the result by the third (`(a + b) * c`).
+    - If the result is less than 50, reject the Promise with the reason `"Value too low"`
+    - If the result is greater than 50, solve the Promise with the value obtained.

@@ -1,11 +1,8 @@
-const fs = require('fs').promises;
-const path = require('path');
+const { readSimpsons: readFile } = require('./readFiles');
 
 async function readSimpsons() {
   try{
-    const jsonSimpsons = await fs.readFile('./simpsons.json', 'utf-8'
-    );
-    const simpsons = JSON.parse(jsonSimpsons);
+    const simpsons = await readFile();
     
     simpsons.forEach(({id, name}) => {
       console.log(`${id} - ${name}`)
