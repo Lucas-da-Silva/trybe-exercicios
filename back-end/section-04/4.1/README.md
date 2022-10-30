@@ -110,16 +110,16 @@ Use the data below to complete the requirements. Save the data inside a file nam
 
 ## Exercises - bonus
 
-1. Create code that displays the value of the first `n` elements of the Fibonacci sequence.
+[1](./exercises/bonus/fibonacci.js). Create code that displays the value of the first `n` elements of the Fibonacci sequence.
 
-    > The Fibonacci sequence starts with 0 and 1 and the following numbers are always the sum of the two previous numbers.
+> The Fibonacci sequence starts with 0 and 1 and the following numbers are always the sum of the two previous numbers.
 
-    - Store the code in the `fibonacci.js` file.
-    - Use `readline-sync` to perform data input.
-    - The code must be triggered through the `npm run fibonacci` command.
-    - Do not print the value `0`, as it is not included in the sequence.
-    - When `n = 10`, exactly 10 elements must be displayed.
-    - Add validations to ensure that the value entered is an integer greater than 0.
+  - Store the code in the `fibonacci.js` file.
+  - Use `readline-sync` to perform data input.
+  - The code must be triggered through the `npm run fibonacci` command.
+  - Do not print the value `0`, as it is not included in the sequence.
+  - When `n = 10`, exactly 10 elements must be displayed.
+  - Add validations to ensure that the value entered is an integer greater than 0.
 
 ---
 
