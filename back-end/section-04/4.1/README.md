@@ -121,6 +121,8 @@ Use the data below to complete the requirements. Save the data inside a file nam
     - When `n = 10`, exactly 10 elements must be displayed.
     - Add validations to ensure that the value entered is an integer greater than 0.
 
+---
+
 2. Create a function that takes three parameters and returns a `Promise`.
 
     - If any of the parameters received is not a number, reject the Promise with the reason `"Enter numbers only"`.
