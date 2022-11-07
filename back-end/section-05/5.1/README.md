@@ -1,7 +1,6 @@
 # Software Architecture: Model Layer
 
-> During the class, the concepts of layer-based software architecture were applied to organize the [trybecar api](./msc-architecture-trybecar/).
-
+> The [trybecar API](./msc-architecture-trybecar/) was developed by trybe, during the class, I applied the knowledge of software architecture based on layers to organize it.
 ## Exercises - now the practice
 
 Now the `Trybecar` company has trusted you to create some components and tests just for the `Model` layer.
