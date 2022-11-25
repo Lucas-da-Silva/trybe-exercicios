@@ -3,8 +3,7 @@ const BookModel = (sequelize, DateType) => {
     title: DateType.STRING,
     author: DateType.STRING,
     pageQuantity: DateType.INTEGER,
-    createdAt: DateType.DATE,
-    updatedAt: DateType.DATE
+    publisher: DateType.STRING,
   });
 
   return Book;

@@ -124,3 +124,15 @@ In the next exercises you will develop an API using the **service** and **contro
 Test it in Thunder Client to see if the endpoint is functional.
 
 - In case of an error, endpoints should return status code `500` with the message: 'Something went wrong'.
+
+---
+
+## Exercises - bonus
+
+1. Create a `seeder` using `Sequelize-CLI`, populating your base with at least one book;
+2. Create a `getByAuthor` method in `BooksService` to fetch a list of books by `author`;
+3. Refactor the `getAll` method so that if a query string `author` is sent it will be able to get the list using the `getByAuthor` method of `BooksService`;
+4. Refactor the `getAll` and `getByAuthor` methods so that the book list is sorted by title in alphabetical order;
+5. Create a migration to add the `publisher` column to the `Books` table. Modify the service layers so that this field is used in registration and editing;
+6. Write unit tests for the `model`;
+7. Write unit tests for the created `service`, isolating the `models` layer.
