@@ -1,5 +1,7 @@
-const jwt = require('jsonwebtoken');
-const { formatError } = require('../utils/formatError');
+const {
+  formatError,
+  jwtFunctions: { verifyToken },
+} = require('../utils');
 
 module.exports = (req, res, next) => {
   const token = req.header('Authorization');
@@ -7,8 +9,8 @@ module.exports = (req, res, next) => {
   if (!token) return res.status(401).json(formatError('Token not found'));
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    if (!decoded.data.admin) { 
+    const decoded = verifyToken(token);
+    if (!decoded.data.admin) {
       return res.status(401).json(formatError('Restricted access'));
     }
 

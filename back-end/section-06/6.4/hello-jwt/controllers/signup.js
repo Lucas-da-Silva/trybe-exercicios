@@ -1,6 +1,6 @@
 const {
   formatError,
-  getToken,
+  jwtFunctions: { createToken },
   fsFunctions: { readFile, writeFile },
 } = require('../utils');
 
@@ -18,6 +18,6 @@ module.exports = async (req, res) => {
   const newUser = [...users, { username, password, admin }];
   await writeFile(newUser);
 
-  const token = getToken('1h', { username, admin });
+  const token = createToken('1h', { username, admin });
   return res.status(200).json({ token });
 };

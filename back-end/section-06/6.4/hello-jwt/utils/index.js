@@ -1,9 +1,9 @@
 const formatError = require('./formatError');
-const getToken = require('./getToken');
+const jwtFunctions = require('./jwtFunctions');
 const fsFunctions = require('./fsFunctions');
 
 module.exports = {
   formatError,
-  getToken,
+  jwtFunctions,
   fsFunctions,
 };

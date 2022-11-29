@@ -1,5 +1,5 @@
 const {
-  getToken,
+  jwtFunctions: { createToken },
   fsFunctions: { readFile },
   formatError,
 } = require('../utils');
@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
     }
 
     const data = { user: user.username, admin: user.admin };
-    const token = getToken('1h', data);
+    const token = createToken('1h', data);
 
     return res.status(200).json({ token });
   } catch (err) {
