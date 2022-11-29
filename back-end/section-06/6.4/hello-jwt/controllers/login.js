@@ -1,28 +1,24 @@
-require('dotenv');
-const jwt = require('jsonwebtoken');
+const {
+  getToken,
+  fsFunctions: { readFile },
+  formatError,
+} = require('../utils');
 
-const jwtConfig = {
-  expiresIn: '1h',
-  algorithm: 'HS256',
-};
-
-const validateUserPassword = (user, password) =>
-  user && user.length > 4 && password && password.length > 4;
-
-const validateAdmin = (user, password) =>
-  user === 'admin' && password === 's3nh4S3gur4???';
-
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   try {
     const { username, password } = req.body;
-    if (!validateUserPassword(username, password)) {
-      return res
-        .status(401)
-        .json({ message: 'Username and password required to login' });
+
+    const users = await readFile();
+    const user = users.find(
+      (u) => u.username === username && u.password === password,
+    );
+      
+    if (!user) {
+      return res.status(401).json(formatError('user not found'));
     }
-    
-    const data = { username, admin: validateAdmin(username, password) };
-    const token = jwt.sign({ data }, process.env.JWT_SECRET, jwtConfig);
+
+    const data = { user: user.username, admin: user.admin };
+    const token = getToken('1h', data);
 
     return res.status(200).json({ token });
   } catch (err) {

@@ -102,3 +102,41 @@ Before starting, create a new project called `hello-jwt` using the command `npm 
 ```
 
 - To validate that the person is admin, create new middleware in the `middlewares/admin.js` file.
+
+---
+
+## Exercises - bonus
+
+1. 🚀 Create the `POST /signup` endpoint.
+- The endpoint must accept the following JSON in the request body:
+```
+    {
+      "username": "MariaCecília_Souza92",
+      "password": "%9!%e'c0c5w,q%%h9n3k"
+    }
+```
+
+- To validate the fields, consider the same criteria as the `POST /login` endpoint.
+- If `username` already exists, return status `409 Conflict` and the following JSON:
+```
+    {
+      "error": { "message": "user already exists" }
+    }
+```
+
+- If the fields are valid, store the data in the `src/models/data/users.json` file.
+- When storing the received data, add the `admin` property, which will have its value determined as follows:
+  - Get a random number from 1 to 100 with the following code snippet: `Math.floor(Math.random() * 100)`;
+  - If the random number is greater than `50`, `admin` must be `true`;
+  - If the random number is less than or equal to `50`, `admin` must be `false`.
+- After storing the new data, return a token that expires in one hour and contains `username` and `admin` in the payload. Use the following format in the response:
+```
+    {
+      "token": "<token generated here>"
+    }
+```
+
+2. 🚀 Change login endpoint:
+- Before generating the token, verify that the entered username and password exist in the `users.json` file.
+- No longer allow `admin` user login with fixed password.
+Enter, in the `admin` property of the token's payload, the same value as the `admin` property that is stored for that person.

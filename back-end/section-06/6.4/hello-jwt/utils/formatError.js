@@ -1,0 +1,1 @@
+module.exports = (err) => ({ error: { message: err } });
