@@ -197,7 +197,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
 - [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Interfaces_
+- [ ] 9-2: _Herança e Composição_
 - [ ] 9-3: _Polimorfismo_
 - [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 9-5: _SOLID - Princípios L e I_
@@ -209,7 +209,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 11: Introdução ao MongoDB
 
-- [ ] 11-1: _Introdução - NoSQL_
 - [ ] 11-1: _MongoDB - Introdução_
 - [ ] 11-2: _Filter Operators_
 - [ ] 11-3: _Operadores de consulta_
@@ -217,10 +216,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 11-5: _Updates Complexos - Arrays_
 - [ ] 11-6: _[Projeto - Commerce]()_
 
-##### Seção 12: MongoDB com Node.js e POO
+##### Seção 12: APIs OO e NoSQL
 
-- [ ] 12-1: _MongoDB e arquitetura MSC_
-- [ ] 12-2: _MongoDB e POO_
+- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 12-3: _[Projeto - Car Shop]()_
 
 ##### Seção 13: Projeto - App de Delivery
@@ -236,7 +235,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1: Introdução à Python
 
-- [ ] 1-1: _Introdução - Ciência da Computação_
 - [ ] 1-1: _Aprendendo Python_
 - [ ] 1-2: _Entrada e Saída de Dados_
 - [ ] 1-3: _Testes_
