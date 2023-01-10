@@ -4,8 +4,6 @@ class Data {
   private _year: number;
 
   constructor(day: number, month: number, year: number) {
-    const dateStr = `${year}-${month}-${day}`;
-
     if (!Data.validateDate(day, month, year)) {
       this._day = 1;
       this._month = 1;
@@ -65,7 +63,7 @@ class Data {
   }
 
   compare(date: Data): number {
-    const currentDateStr = `${this.year}-${this.month}-${this.day}`;
+    const currentDateStr = `${this._year}-${this._month}-${this._day}`;
     const dateStr = `${date.year}-${date.month}-${date.day}`;
 
     if (new Date(currentDateStr) > new Date(dateStr)) return 1;
