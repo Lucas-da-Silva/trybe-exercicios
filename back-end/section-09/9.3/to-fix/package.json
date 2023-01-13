@@ -1,0 +1,16 @@
+{
+  "name": "to-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/classes/index.ts",
+  "scripts": {
+    "dev": "npx ts-node ./src/classes/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
