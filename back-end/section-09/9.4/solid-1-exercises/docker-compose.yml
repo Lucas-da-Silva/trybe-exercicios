@@ -1,0 +1,16 @@
+version: '3.1'
+
+services: 
+  db: 
+    container_name: solid_db
+    image: mysql:8.0.23
+    restart: always
+    ports:
+      - 3306:3306
+      - 33060:33060
+    environment: 
+      MYSQL_ROOT_PASSWORD: password
+
+networks: 
+  default:
+    name: solid_net
