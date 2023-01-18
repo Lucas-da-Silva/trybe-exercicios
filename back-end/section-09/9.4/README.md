@@ -2,7 +2,7 @@
 
 > The contents of the [principles-srp-ocp-and-dip](./principles-srp-ocp-and-dip/) directory were developed during the class.
 
-## Exercises - now the practice
+## [Exercise Solid 1](./solid-1-exercises/src/) 
 
 An application is provided that controls a catalog of plants for a botany institute. This API was written in Typescript and is divided into layers according to the MSC architecture (Model, Service and Controller). Transcribe the codes below to Visual Studio Code:
 
