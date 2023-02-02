@@ -1,0 +1,9 @@
+use("business");
+db.restaurants.countDocuments(
+  { 
+    $nor: [
+      { rating: 1 },
+      { cursine: "American" }
+    ]
+  }
+);

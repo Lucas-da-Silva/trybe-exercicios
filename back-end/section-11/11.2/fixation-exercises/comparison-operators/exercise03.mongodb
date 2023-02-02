@@ -1,0 +1,6 @@
+use("business");
+db.restaurants.countDocuments(
+  { 
+    rating: { $gte: 8 }
+  }
+);
