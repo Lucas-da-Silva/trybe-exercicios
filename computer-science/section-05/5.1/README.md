@@ -162,8 +162,8 @@ Agora vamos tanto explorar o hardware que estamos utilizando quanto aprender alg
 8. A quantidade total de memória RAM que está sendo utilizada **em megabytes - MB**.
 
 
-### Exercício 4:
+### [Exercício 4:](./memory.py)
 Faça um script que, a cada intervalo de segundo, mostre no console a memória utilizada do sistema operacional vs a memória total (ambos em **megabytes - MB**). Lembre-se que você pode se basear no script do exercício anterior.
 
-### Exercício 5:
+### [Exercício 5:](./process_id.py)
 Faça um script que exibe o seu respectivo `process id` utilizando o módulo os do Python e então fique em execução por um determinado tempo. Agora utilizando os comandos de monitoramento visto no conteúdo, exiba os processos em execução e então identifique o seu processo.
