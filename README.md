@@ -135,7 +135,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: _[Projeto - App de Receitas](https://github.com/lucas-da-silva/project-recipes-app)_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end ✅
 
 ##### Seção 1: Docker: Utilizando Containers ✔️
 
@@ -194,70 +194,65 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-3: _Express com TypeScript_
 - [x] 8-4: _[Projeto - Trybesmith](https://github.com/lucas-da-silva/project-trybesmith)_
 
-##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
+##### Seção 9: Programação Orientada a Objetos (POO) e SOLID ✔️
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Composição_
-- [ ] 9-3: _Polimorfismo_
-- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 9-5: _SOLID - Princípios L e I_
-- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
+- [x] 9-1: _Introdução à Orientação a Objetos_
+- [x] 9-2: _Herança e Composição_
+- [x] 9-3: _Polimorfismo_
+- [x] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [x] 9-5: _SOLID - Princípios L e I_
+- [x] 9-6: _[Projeto - Trybers and Dragons](https://github.com/lucas-da-silva/project-trybers-and-dragons)_
 
-##### Seção 10: Projeto - TFC - Trybe Futebol Clube
+##### Seção 10: Projeto - TFC - Trybe Futebol Clube ✔️
 
-- [ ] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [x] 10-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/lucas-da-silva/api-trybe-soccer-club)_
 
-##### Seção 11: Introdução ao MongoDB
+##### Seção 11: Introdução ao MongoDB ✔️
 
-- [ ] 11-1: _MongoDB - Introdução_
-- [ ] 11-2: _Filter Operators_
-- [ ] 11-3: _Operadores de consulta_
-- [ ] 11-4: _Updates Simples_
-- [ ] 11-5: _Updates Complexos - Arrays_
-- [ ] 11-6: _[Projeto - Commerce]()_
+- [x] 11-1: _MongoDB - Introdução_
+- [x] 11-2: _Filter Operators_
+- [x] 11-3: _Operadores de consulta_
+- [x] 11-4: _Updates Simples_
+- [x] 11-5: _Updates Complexos - Arrays_
+- [x] 11-6: _[Projeto - Commerce](https://github.com/lucas-da-silva/project-mongodb-commerce)_
 
-##### Seção 12: APIs OO e NoSQL
+##### Seção 12: APIs OO e NoSQL ✔️
 
-- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 12-3: _[Projeto - Car Shop]()_
+- [x] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [x] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
+- [x] 12-3: _[Projeto - Car Shop](https://github.com/lucas-da-silva/api-car-shop)_
 
-##### Seção 13: Projeto - App de Delivery
+##### Seção 13: Projeto - App de Delivery ✔️
 
-- [ ] 13-1: _[Projeto - App de Delivery]()_
-
-##### Seção 14: MasterClass - VPS, CI/CD
-
-- [ ] 14-1: _Dia 1_
-- [ ] 14-2: _Dia 2_
+- [x] 13-1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Seção 1: Introdução à Python
+##### Seção 1: Introdução à Python ✔️
 
-- [ ] 1-1: _Aprendendo Python_
-- [ ] 1-2: _Entrada e Saída de Dados_
-- [ ] 1-3: _Testes_
-- [ ] 1-4: _[Projeto - Job Insights]()_
+- [x] 1-1: _Aprendendo Python_
+- [x] 1-2: _Entrada e Saída de Dados_
+- [x] 1-3: _Testes_
+- [x] 1-4: _[Projeto - Job Insights](https://github.com/lucas-da-silva/job-insights)_
 
-##### Seção 2: Padrões de Projeto
+##### Seção 2: Padrões de Projeto ✔️
 
-- [ ] 2-1: _P.O.O em Python_
-- [ ] 2-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 2-3: _Padrões - Decorator, Observer, Factory_
-- [ ] 2-4: _[Projeto - Relatórios de Estoque]()_
+- [x] 2-1: _P.O.O em Python_
+- [x] 2-2: _Padrões - Iterator, Adapter, Strategy_
+- [x] 2-3: _Padrões - Decorator, Observer, Factory_
+- [x] 2-4: _[Projeto - Relatórios de Estoque](https://github.com/lucas-da-silva/python-inventory-report)_
 
-##### Seção 3: Redes e Raspagem de Dados
+##### Seção 3: Redes e Raspagem de Dados ✔️
 
-- [ ] 3-1: _Arquitetura de redes_
-- [ ] 3-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 3-3: _Raspagem de Dados_
-- [ ] 3-4: _[Projeto - Tech news]()_
+- [x] 3-1: _Arquitetura de redes_
+- [x] 3-2: _Redes de computadores, ferramentas e segurança_
+- [x] 3-3: _Raspagem de Dados_
+- [x] 3-4: _[Projeto - Tech news](https://github.com/lucas-da-silva/scrape-tech-news)_
 
 ##### Seção 4: Algoritmos
 
-- [ ] 4-1: _Complexidade de Algoritmos_
-- [ ] 4-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 4-1: _Complexidade de Algoritmos_
+- [x] 4-2: _Recursividade e Estratégias para solução de problemas_
 - [ ] 4-3: _Algoritmos de ordenação e busca_
 - [ ] 4-4: _[Projeto - Algoritmos]()_
 
